@@ -1,0 +1,11 @@
+.env
+test-results/
+playwright-report/
+node_modules/
+
+# local tooling output and settings
+.playwright-mcp/
+.claude/settings.local.json
+
+# Jira-derived run output (repo is public)
+artifacts/

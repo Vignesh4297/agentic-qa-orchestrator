@@ -1,0 +1,44 @@
+{
+  "urls": {
+    "login": "/",
+    "inventory": "/inventory.html",
+    "cart": "/cart.html"
+  },
+  "invalidPassword": "wrong_password",
+  "messages": {
+    "lockedOut": "Epic sadface: Sorry, this user has been locked out.",
+    "usernameRequired": "Epic sadface: Username is required",
+    "passwordRequired": "Epic sadface: Password is required",
+    "credentialsMismatch": "Epic sadface: Username and password do not match any user in this service",
+    "inventoryAccessDenied": "Epic sadface: You can only access '/inventory.html' when you are logged in."
+  },
+  "inventory": {
+    "title": "Products",
+    "expectedCount": 6
+  },
+  "products": {
+    "backpack": "Sauce Labs Backpack",
+    "bikeLight": "Sauce Labs Bike Light"
+  },
+  "cartBadge": {
+    "one": "1",
+    "two": "2"
+  },
+  "sortOptions": {
+    "nameZtoA": "Name (Z to A)",
+    "priceLowToHigh": "Price (low to high)"
+  },
+  "expected": {
+    "pricesLowToHigh": ["$7.99", "$9.99", "$15.99", "$15.99", "$29.99", "$49.99"],
+    "pricesInNameZtoAOrder": ["$15.99", "$7.99", "$49.99", "$15.99", "$9.99", "$29.99"],
+    "namesZtoA": [
+      "Test.allTheThings() T-Shirt (Red)",
+      "Sauce Labs Onesie",
+      "Sauce Labs Fleece Jacket",
+      "Sauce Labs Bolt T-Shirt",
+      "Sauce Labs Bike Light",
+      "Sauce Labs Backpack"
+    ],
+    "firstNamePriceLowToHigh": "Sauce Labs Onesie"
+  }
+}

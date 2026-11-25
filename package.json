@@ -1,0 +1,25 @@
+{
+  "name": "qa-orchestrator-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.10",
+    "eslint": "^10.15.0",
+    "eslint-plugin-playwright": "^2.12.2",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.74.0"
+  }
+}

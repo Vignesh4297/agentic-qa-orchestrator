@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx playwright test:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx eslint:*)",
+      "mcp__atlassian",
+      "mcp__playwright"
+    ],
+    "deny": [
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(rm:*)",
+      "Read(.env.prod*)"
+    ]
+  }
+}
